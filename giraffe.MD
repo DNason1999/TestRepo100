@@ -1,0 +1,1 @@
+$$\min \quad \sum_{u\in U}\sum_{t\in T} \left( \underbrace{\beta c_{u}x_{ut}}_{\text{task cost for user $u$}} - \underbrace{\gamma r_{ut}x_{ut}}_{\text{recc_engine score}} \right) - \underbrace{\sum_{u\in U:q_u\leq 0.7}\sum_{t\in T}\alpha q_ux_{ut}}_{\text{user_utilization } \leq \; 0.7 } \tag{1}$$
